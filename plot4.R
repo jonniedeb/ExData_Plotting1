@@ -32,7 +32,7 @@ par(mar=c(4,4,2,2), mfrow=c(2,2), cex=0.65, bg=NA)
     with(data,lines(DT, Sub_metering_1), col="black")
     with(data,lines(DT, Sub_metering_2, col="red"))
     with(data,lines(DT, Sub_metering_3, col="blue"))
-    legend("topright", bty="n", lwd=1, cex=0.8, y.intersp=0.5,x.intersp=0.5, text.width = strwidth("Sub_metering"),col = c("black", "red", "blue"), 
+    legend("topright", bty="n", lwd=1, cex=0.8, y.intersp=0.5,x.intersp=0.5, text.width = strwidth("Sub_metering_XX"),col = c("black", "red", "blue"), 
            legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"))
     #subplot4
     with(data, plot(DT, Global_reactive_power,xlab="datetime", type="n"))
